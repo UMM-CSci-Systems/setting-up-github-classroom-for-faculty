@@ -16,8 +16,8 @@ Morris.
 
 ## Create a GitHub organization
 
-The first step is to [create a GitHub organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch)
-for this particular
+The first step is to [create a GitHub organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) 
+using the "Free" Tier for this particular
 semester of the course. This will hold all the student repositories in
 a single place, which makes it easier for both faculty and students to
 keep track of things. We've typically used a specific naming scheme
@@ -30,7 +30,7 @@ for example, we've used <https://github.com/umm-csci-3412-fall-2021>.
 suggests that you can upgrade your GitHub organization with
 GitHub Education benefits for teachers. I've never done this (didn't
 know it was a thing until now), but it looks like one benefit would
-be that it might allow the students to have private repositories.
+be that it allows the students to have private repositories.
 
 :warning: I have tried setting student repos in GitHub Classroom to
 private before, and we almost immediately used all the free credits
