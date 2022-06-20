@@ -46,24 +46,26 @@ In any event, here's how as of 6/20/2022, the organization is upgraded (for free
 
 #### Screenshots
 
-**Upgrade to GitHub Team:**
+**Upgrade to GitHub Team Button:** (At `https://education.github.com/globalcampus/teacher`)
 
+<img src="Images/githubeducationupgrade.jpg" height="300">
 
+**Select Organization:** (In this example I will select umm-csci-3412-fall-2022)
 
-**Select Organization:**
+<img src="Images/githubeducationupgrade2.jpg" height="300">
+
+These were the *original* directions from the link above:
 
 ```
-When creating a new organization, choose the free plan option. Then, you can find the offer to upgrade your organization in the GitHub Teacher Toolbox listed under GitHub as “Self-serve free Team plans to academic organizations you own.”
+When creating a new organization, choose the free plan option. Then, you can find the offer to upgrade your 
+organization in the GitHub Teacher Toolbox listed under GitHub as “Self-serve free Team plans to academic 
+organizations you own.”
 ```
 
-I've (Nic) never done this (didn't
-know it was a thing until now), but it looks like one benefit would
-be that it allows the students to have private repositories.
-
-:warning: I have tried setting student repos in GitHub Classroom to
-private before, and we almost immediately used all the free credits
+:warning: (2022) Nic tried setting student repos in GitHub Classroom to
+private before, and almost immediately used all the free credits
 for GitHub Actions. Given how important GitHub Actions are for most
-of the labs, I then went back to using public repos. In a perfect world,
+of the labs, Nic went back to using public repos. In a perfect world,
 though, it would be nice to give students private repositories and
 admin permissions so they can make them public if they want to include
 them in an online portfolio.
@@ -71,7 +73,7 @@ them in an online portfolio.
 ### Optional: Make a logo
 
 You might find it useful to create a logo for this semester's course.
-As someone who's taught this course _many_ times, I've found it helpful
+As someone who's taught this course _many_ times, Nic found it helpful
 to have a slightly different logo each semester to make it easier to
 distinguish different semesters.
 
