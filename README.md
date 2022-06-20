@@ -28,7 +28,13 @@ for example, we've used <https://github.com/umm-csci-3412-fall-2021>.
 
 [This guide to GitHub Classroom](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/)
 suggests that you can upgrade your GitHub organization with
-GitHub Education benefits for teachers. I've never done this (didn't
+GitHub Education benefits for teachers.  The relevent directions (as of 6/20/2022) from that link state
+
+```
+When creating a new organization, choose the free plan option. Then, you can find the offer to upgrade your organization in the GitHub Teacher Toolbox listed under GitHub as “Self-serve free Team plans to academic organizations you own.”
+```
+
+I've (Nic) never done this (didn't
 know it was a thing until now), but it looks like one benefit would
 be that it allows the students to have private repositories.
 
