@@ -12,6 +12,8 @@ Morris.
 - [Create a GitHub Classroom](#create-a-github-classroom)
 - [Optional: Set up Slack organization](#optional-set-up-slack-organization)
 - [Setting up individual labs](#setting-up-individual-labs)
+  - [Add the assignment in your GitHub Classroom](#add-the-assignment-in-your-github-classroom)
+  - [Add the invite link to Canvas](#add-the-invite-link-to-canvas)
 - [Shutting it all down](#shutting-it-all-down)
 
 ## Create a GitHub organization
@@ -114,24 +116,69 @@ involved that they're not looking at a working link. Otherwise you'll
 probably end up with plausible looking links that point into last year's
 GitHub Classroom, which isn't good.
 
-For each lab you need to:
+For each lab you need to add the assignment to your Github classroom, and
+then add the invite link to Canvas (or whatever LMS you're using).
 
-- Add the assignment in your GitHub Classroom
-  - You can set the deadline, but I'm not sure it actually does much (or
+### Add the assignment in your GitHub Classroom
+
+To add the assignment to the GitHub Classroom hit the big green "Create
+an assignment" button.
+
+- You can set the deadline, but I'm not sure it actually does much (or
     or anything).
-  - Set it as an individual or group assignment as appropriate for the lab.
-    - I usually set the "Name your set of teams" field to something like
+- Set it as an individual or group assignment as appropriate for the lab.
+  - I usually set the "Name your set of teams" field to something like
       "Lab 3 teams", but I don't think it actually matters much.
-    - Set the max/min team sizes if you care.
-  - Set the repo to be public or private as appropriate. :warning: Private
+  - Set the max/min team sizes if you care.
+- Set the repo to be public or private as appropriate. :warning: Private
     would be nice, but see the note above about GitHub Actions credits.
-  - I would probably grant students admin access to their repository.
+- I would probably grant students admin access to their repository.
     They usually don't need it, but every now and then someone finds it
     useful and it's easier to grant it here than have to piecemeal it
     later.
-  - Use the "primary" repo in the `UMM-CSci-Systems` organization as the
+- Use the "primary" repo in the `UMM-CSci-Systems` organization as the
     template repository for the assignment.
-  - 
+  - That repo has to be a _template_ repository. All the existing
+      starter repositories in the `UMM-CSci-Systems` organization are
+      already template repositories, but if you make a new repository
+      for a new lab, you'll need to mark it as a template repository.
+  - I've never set up Codespaces or the "Add a supported editor" features.
+      Because of the systems programming in this course, and the desire
+      to have them use CLI editors at least some, these options probably
+      don't make any particular sense for us in this class.
+- I've never used the autograding feature. I think that having the
+    GitHub Actions tests is probably sufficient to the task for us.
+- I _do_ tend to select the "Enable feedback pull requests" option,
+    although to be honest we haven't used that very often or coherently.
+  - It is sometimes nice to be able to see exactly what they've changed
+      from the starter code on some labs, and it's no real work
+      to tick the box when you create the lab, so I tend to do it.
+  - :warning: For reasons I've
+      never really looked into, it seems that GitHub Classroom doesn't
+      always actually create that PR, though. We've never used it enough
+      for me to both digging ino the problem, though. (It's also pretty
+      easy to create a Feedback PR manually if you decide you need one.)
+
+### Add the invite link to Canvas
+
+When the assignment is created you want to click the big green
+"Copy invitation link" button to get the invitation link, and then
+paste that into the Canvas assignment for the lab.
+
+When the students click that link for a _group_ assignment, they are
+asked to either join an existing team or create a new team, so they need
+to coordinate with their teammate(s) at that point.
+
+:warning: One advantage of not putting the "real" links into Canvas
+too early is that it makes it less likely that a student will create
+a bunch of teams at the start of the semester before they know who
+they'll be paired up with for those labs.
+
+:bangbang: It is fixable if some students do manage to muddle things up, e.g.,
+joining the wrong team, or two people that were supposed to work
+together each creating separate teams. It's not trivial, though, and doing
+so requires some understanding of GitHub's notion of teams. I can write up
+something on that in a separate document if that would be useful.
 
 ## Shutting it all down
 
